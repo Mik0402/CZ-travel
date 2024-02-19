@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Czech Republic- My hobby</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body class="dark">
+    <button class="theme-button">Dark Theme</button>
+    <div class="container">
+      <h1>Travel the Czech Republic 🇨🇿</h1>
+      <h2>My favorite hobby</h2>
+      <a href="https://en.wikipedia.org/wiki/Czech_Republic">
+        <img
+          src="https://www.prosperity.com/application/files/4314/7801/8528/Czech_Republic_header.jpg"
+          alt=""
+          class="CZ-intro-picture"
+      /></a>
+      <div class="grid">
+        <a href="https://www.britannica.com/place/Czech-Republic"
+          ><img src="https://geology.com/world/czech-republic-map.gif" alt=""
+        /></a>
+        <a href="https://www.britannica.com/place/Czech-Republic/Cultural-Life"
+          ><img
+            src="https://cdn.britannica.com/01/163601-050-ABF973C4/People-folk-costume-festival-Czech-Republic-Vracov.jpg"
+            alt=""
+        /></a>
+        <a href="https://www.willflyforfood.net/czech-food/"
+          ><img
+            src="https://images.squarespace-cdn.com/content/v1/53162615e4b08f2413caa7c2/1461580943785-SYZUOAULXFRT9TJLK1OA/traditional-czech-food"
+            alt=""
+        /></a>
+      </div>
+      <p>
+        The Czech Republic, also known as Czechia, is a landlocked country in
+        Central Europe. Historically known as Bohemia, it is bordered by Austria
+        to the south, Germany to the west, Poland to the northeast, and Slovakia
+        to the southeast.
+      </p>
+      <button>Learn more about The Czech Republic</button>
+    </div>
+    <footer>Coded by <a href="blank">Mikaela Lammers</a></footer>
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+        body.classList.toggle("dark");
+      }
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
