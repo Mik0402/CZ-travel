@@ -16,7 +16,7 @@ body {
     font-size: 18px;
     line-height: 1.5;
   }
-  button {
+  .learnMore, button {
     border-radius: 5px;
     padding: 10px 15px;
     display: block;
@@ -26,7 +26,10 @@ body {
     font-size: 20px;
     transition: all 150ms ease-in-out;
   }
-  button:hover {
+  .learnMore {
+    max-width: 70%;
+  }
+  a:hover {
     background: #ffa276;
     cursor: pointer;
   }
